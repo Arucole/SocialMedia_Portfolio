@@ -1,0 +1,114 @@
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.cv-container .cv-head {
+  background-color: #f87c5db9;
+  justify-content: center;
+  width: 50%;
+  height: 5rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  display: flex;
+}
+
+.cv-container h1 {
+  font-family: Dancing Script, cursive;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.cv-container .heading {
+  background-color: #c6c9d8bf;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  display: flex;
+}
+
+.cv-container .heading h4 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+
+.cv-container .prof-sum-notes {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  max-width: 70rem;
+  padding: 0 40px;
+  display: flex;
+}
+
+.cv-container button {
+  color: #fff;
+  background-color: #f87c5db9;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin: 2rem 0;
+}
+
+.cv-container button:hover {
+  color: #f87c5db9;
+  background-color: #c6c9d8bf;
+}
+
+.cv-container .download-cv p {
+  font-family: Dancing Script, cursive;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cv-container .skill-sec-one, .cv-container .skill-sec-two, .cv-container .skill-sec-three {
+  text-align: left;
+  max-width: 70rem;
+  margin: 20px 0;
+  padding: 0 40px;
+}
+
+.cv-container .comp-title, .cv-container .comp-pos {
+  margin: 5px 0;
+  padding: 0 40px;
+}
+
+.cv-container .exp-notes li {
+  text-align: left;
+  max-width: 70rem;
+  margin: 5px 0;
+  padding: 0 40px;
+}
+
+.cv-container .edu-notes-all, .cv-container .additional-notes li {
+  text-align: left;
+  max-width: 70rem;
+  padding: 0 40px;
+}
+
+@media (width <= 745px) {
+  .cv-container .heading {
+    padding: 2rem 1rem;
+  }
+
+  .cv-container .heading h4 {
+    text-transform: uppercase;
+    font-family: Dancing Script, cursive;
+    font-size: 15px;
+    font-weight: 800;
+  }
+}
+
+/*# sourceMappingURL=cv.5d5cc8aa.css.map */

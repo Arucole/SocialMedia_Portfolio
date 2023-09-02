@@ -1,0 +1,72 @@
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.serviceContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem 0 2rem 2rem;
+  display: flex;
+}
+
+.serviceHead {
+  color: #f87e5fb9;
+  margin: 2rem 0;
+}
+
+.serviceList {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.service-box {
+  cursor: pointer;
+  border: 1px solid #0000;
+  border-radius: .8rem;
+  flex-direction: column;
+  align-items: center;
+  max-width: 27rem;
+  height: 30rem;
+  max-height: 34rem;
+  margin: 1rem;
+  padding: 45px 30px;
+  transition: all .5s;
+  display: flex;
+}
+
+.service-box img {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.service-box h3 {
+  color: #f87e5fb9;
+  margin-bottom: 12px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.service p {
+  color: #fff;
+  margin: 1rem 0;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.service-box:hover {
+  border: 1px solid #191919;
+  transform: translateY(-8px);
+}
+
+@media (width <= 490px) {
+  .serviceContainer {
+    margin: 8rem 0 1rem 1rem;
+  }
+}
+
+/*# sourceMappingURL=services.e663927a.css.map */

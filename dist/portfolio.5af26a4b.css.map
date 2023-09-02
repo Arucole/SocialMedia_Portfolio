@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/scss/portfolio.scss"],"sourcesContent":["*,\n*::before,\n*::after {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\n"],"names":[],"version":3,"file":"portfolio.5af26a4b.css.map","sourceRoot":"/__parcel_source_root/"}
