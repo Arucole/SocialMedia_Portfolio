@@ -21,10 +21,10 @@ const hamburgerHandler = function () {
 
 hamburger.addEventListener("click", hamburgerHandler);
 
-item.addEventListener("click", function () {
-  hamburger.classList.remove("active");
-  navlist.classList.remove("active");
-});
+// item.addEventListener("click", function () {
+//   hamburger.classList.remove("active");
+//   navlist.classList.remove("active");
+// });
 
 listDisplay.addEventListener("click", function () {
   dropdown.classList.add("active");
